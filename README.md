@@ -117,36 +117,12 @@ Let's break this down. We have a method, called `annoying`, that contains a loop
 * Check to see if the `answer` variable points to a value of "STOP". 
 * If it doesn't, go back to the top of the loop and repeat. If it does, `break` out of the loop and proceed to the next lines of code––"Okay, okay, jeez. I'll stop. Sorry."
 
-%%%
 
-## Using Gets and Break
+# Using Gets and Break
 
-Okay, now that we've mastered feather levitation, we're reading for the levitation quiz! Fill out the content of the method `levitation_quiz` so that it contains a loops that asks the user "What is the spell that enacts levitation?", it should then store the answer in a variable called `answer` using the `gets.chomp` method. The loop should `break` if the user's answer is "Wingardium Leviosa". Otherwise, the loop should continue. 
+## Instructions 
 
+Okay, now that we've mastered feather levitation, we're ready for the levitation quiz! Fill out the content of the method `levitation_quiz` so that it contains a loop that asks the user "What is the spell that enacts levitation?" It should then store the answer in a variable called `answer` using the `gets.chomp` method. The loop should `break` if the user's answer is "Wingardium Leviosa". When the loop breaks, our method should puts out "You passed the quiz!" Otherwise, the loop should continue. 
 
-```ruby
-def levitation_quiz
-	#your code here
-end
+Fork and clone this lab, then run the test suite. The test plus the above instruction should be enough to get you started. 
 
-~~~solution
-
-def levitation_quiz
-	loop do 
-		puts "What is the spell that enacts levitation?"
-		answer = gets.chomp
-		break if answer == "Wingardium Leviosa"
-	end
-end
-
-levitation_quiz
-
-~~~validation
-question = "What is the spell that enacts levitation?"
-
-expect{ levitation_quiz }.to output(question).to_stdout
-expect{  }
-
-```
-
-%%%
