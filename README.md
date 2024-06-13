@@ -122,7 +122,8 @@ Let's break this down. We have a method, called `annoying`, that contains a loop
 
 ## Instructions 
 
-Okay, now that we've mastered feather levitation, we're ready for the levitation quiz! Fill out the content of the method `levitation_quiz` so that it contains a loop that asks the user "What is the spell that enacts levitation?" It should then store the answer in a variable called `answer` using the `gets.chomp` method. The loop should `break` if the user's answer is "Wingardium Leviosa". When the loop breaks, our method should puts out "You passed the quiz!" Otherwise, the loop should continue. 
+Fork and clone this lab. Read the below explanation and run the test suite to get started. 
 
-Fork and clone this lab, then run the test suite. The test plus the above instruction should be enough to get you started. 
+* Okay, now that we've mastered feather levitation, we're ready for the levitation quiz! Fill out the content of the method `levitation_quiz` so that it contains a loop that asks the user "What is the spell that enacts levitation?" It should then store the answer in a variable called `answer` using the `gets.chomp` method. The loop should `break` if the user's answer is "Wingardium Leviosa". When the loop breaks, our method should puts out "You passed the quiz!" Otherwise, the loop should continue. 
+
 
