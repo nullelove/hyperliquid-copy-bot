@@ -33,6 +33,10 @@ Let's say we are writing a program in order to annoy someone (maybe a younger si
 
 Now that we've proposed a use case for the utilizing the `break` keyword, we're going to take a step back and discuss how to get and use a user's input. 
 
+## When *not* to use `break`
+
+The use of the `break` keyword is generally avoided. In upcoming lessons, we'll learn how to write more elegant, self-explanatory loops that *don't* require `break`-ing. It is important to understand how `break` works, however, and it is useful in command line applications. 
+
 # Gets
 
 The `gets` method accepts a single line of data from the standard input - the keyboard in this case. Then, your program can assign that value to a variable. 
