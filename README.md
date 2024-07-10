@@ -41,7 +41,7 @@ The use of the `break` keyword is generally avoided. In upcoming lessons, we'll 
 
 The `gets` method accepts a single line of data from the standard input - the keyboard in this case. Then, your program can assign that value to a variable. 
 
-*Not on standard input: The standard input is a default stream supplied by many operating systems that relates to the standard way to accept input from the user. In our case, the standard input is the keyboard. For now, just think of the standard input as what our user types into the terminal.*
+*Note on standard input: The standard input is a default stream supplied by many operating systems that relates to the standard way to accept input from the user. In our case, the standard input is the keyboard. For now, just think of the standard input as what our user types into the terminal.*
 
 We're going to play with method `greeting` that uses `puts` to ask a user for their name. Then, their response that they type into the terminal will be stored in a variable via the `gets` method. Then, the `greeting` method will proceed to puts out a greeting: "Your name is < name >"
 
