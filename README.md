@@ -1,5 +1,11 @@
 # Breaking and Gets
 
+## Objectives
+
+1. Understand how the `break` keyword is used in looping.
+2. Understand how the `gets` method is used to store a user's input.
+3. Utilize both `break` and `gets` in your own program.
+
 ## What is the `break` keyword?
 
 What happens when we have an infinite loop that keeps on going forever? What happens when, given a specific output, we want to break out of the loop? This is where the `break` keyword comes in.
