@@ -97,7 +97,7 @@ annoying
 
 If you copy and paste the above code into IRB (hint: do it), you will probably be annoyed. Here's what happened when I copied and pasted the code into my terminal:
 
-```ruby
+```
 What's up, Doc?
 nothing
 What's up, Doc?
