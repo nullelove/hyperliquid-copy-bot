@@ -81,8 +81,8 @@ hyperliquid-copy-bot/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/nullelove/hyperliquid-copy-trading-Bot
-   cd hyperliquid-copy-trading-Bot
+   git clone https://github.com/nullelove/hyperliquid-copy-bot
+   cd hyperliquid-copy-bot
    ```
 
 2. **Configure environment variables**
